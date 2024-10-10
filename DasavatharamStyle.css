@@ -1,0 +1,259 @@
+body{
+  background-color: lightskyblue;
+}
+
+
+@keyframes example {
+  0% {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:100px; top:0px;}
+  50%  {background-color:blue; left:100px; top:100px;}
+  75%  {background-color:green; left:0px; top:100px;}
+  100% {background-color:lightskyblue; left:0px; top:0px;}
+}
+
+
+
+
+@keyframes example2 {
+  0% {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:100px; top:0px;}
+  50%  {background-color:blue; left:100px; top:100px;}
+  75%  {background-color:green; left:0px; top:100px;}
+  100% {background-color:lightskyblue; left:0px; top:0px;}
+}
+
+
+
+@keyframes example3 {
+  0% {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:100px; top:0px;}
+  50%  {background-color:blue; left:100px; top:100px;}
+  75%  {background-color:green; left:0px; top:100px;}
+  100% {background-color:lightskyblue; left:0px; top:0px;}
+}
+
+
+#subtitle {
+
+  color: black;
+  font-size: 100px;
+  text-align: center;
+  text-decoration: underline;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  animation-name: example3;
+  animation-duration: 4s;
+  animation-iteration-count:2;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+  animation-delay: 2s;
+  text-align: center;
+}
+
+
+img {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: block;
+  margin-right: auto;
+  border-radius: 10%;
+  margin-left: auto;
+  color:white  
+}
+
+rotate-img{
+  transform: rotate(270deg);
+}
+
+.A1 {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+display: block;
+border-radius: 10%;
+float: left;
+margin-left: auto;
+color:white
+
+}
+
+
+
+
+figure {
+  border: 1px #cccccc solid;
+  padding: 4px;
+  margin: auto;
+}
+figcaption {
+  background-color: orangered;
+  display:block;
+  color: white;
+  font-style: italic;
+  font-size: 25px;
+  background-position: bottom;
+  padding: 2%;
+  text-align: center;
+}
+button:hover{
+  background-color: orangered;
+  text-decoration: overline;
+}
+button
+{
+  background-color: orange;
+  border: solid;
+  border-radius: 5%;
+  border-color: black;
+  border-style: ridge;
+  color: white;
+  padding: 15px 32px;
+  text-align:center;
+  display:inline-block;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.avatar{
+  color: red;
+  font-size: 70px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  animation-name: example3;
+  animation-duration: 4s;
+  animation-iteration-count:2;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+  animation-delay: 2s;
+  text-align: center;
+}
+
+
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+h1 { 
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: black;
+}
+
+.navbar1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: orange;
+  border-radius: 3%;
+  border-color: black;
+  border-style: ridge;
+  color: white;
+  border: solid;
+  border-radius: 5px;
+  border-style: ridge;
+  border-color: black;
+  padding: 12px 0px;
+  animation-name: example3;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+  animation-iteration-count: 2;
+  animation-direction: alternate;
+}
+
+table, th, td {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 28px;
+  text-align: center;
+  border: 6px solid;
+  border-color: black;
+  width: 50%;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+div
+  {
+  border: dotted;
+  
+  }
+  
+  p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    background: orange;  
+    animation-name: example2;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+  
+  }
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(0, 30, 255);
+  border-radius: 3%;
+  padding: 12px, 16px;
+  z-index:1;
+  text-decoration: overline;
+}
+
+li.dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: orange;
+  overflow-y: auto;
+  max-height: 300px;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  padding: 5% 0%;
+}
+
+.dropdown-content a {
+  color: darkblue;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: lightskyblue;
+  position: -webkit-sticky; 
+  position: sticky;
+  top:0;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: lightskyblue;
+  width: 100%;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+  animation-iteration-count: 2;
+  animation-direction: alternate;
+}
+
+ul li {
+  display: inline;
+}
+
+
